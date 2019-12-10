@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src/index.js --out-file dist/index-compiled.js",
-    "start": "node dist/index-compiled.js",
+    "start:compiled": "node dist/index-compiled.js",
     "clean": "rimraf dist/*",
     "dev": "NODE_ENV=development babel-node index.js",
-    "prod": "NODE_ENV=production && npm run clean && npm run build && npm run start"
+    "start": "NODE_ENV=production && npm run clean && npm run build && npm run start:compiled"
   },
   "keywords": [],
   "author": "",
