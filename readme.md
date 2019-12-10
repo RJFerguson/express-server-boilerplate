@@ -2,16 +2,24 @@
 
 A simple boilerpate app that comes with eslint + prettier + husky for code hygeine, extend from there
 
+---
+
 ## Getting started
 
-<!-- **Click the "Use this template" button.** -->
+You have 3 options: 
 
-Alternatively, create a new directory and then run:
+- **Click the "Use this template" button then clone the repository**
 
-<!-- ```
-$ curl -fsSL https://github.com/rjferguson/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=1
-``` -->
+- **Fork this repo and clone it down** 
 
+- **Alternatively, create a new directory and then run:**
 
+```
+$ cd <directory name>
+$ curl -fsSL https://github.com/RJFerguson/express-server-boilerplate/archive/master.tar.gz | tar -xz --strip-components=1 
+$ git init 
+$ npm i 
+$ npm run start 
+```
 
 ---
